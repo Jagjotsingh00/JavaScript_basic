@@ -59,7 +59,7 @@ console.log(age <= 19);
 let val1 = 10;
 let val2 = "10";
 
-console.log(val1 == val2);  
-console.log(val1 === val2); 
-console.log(val1 != val2);
-console.log(val1 !== val2);
+console.log(val1 == val2);  // CHECK ONLY VALUE
+console.log(val1 === val2); // CHECK VALUE AND TYPE
+console.log(val1 != val2);  // NOT EQUAL
+console.log(val1 !== val2); // NOT EQUAL AND TYPE
