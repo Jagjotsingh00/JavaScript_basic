@@ -50,3 +50,6 @@
 // console.log(person);
 // console.log(typeof person);
   
+var fName = "jagjot singh";
+
+console.log(`My Name Is ${fName}`);

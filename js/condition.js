@@ -63,6 +63,7 @@
 // Ans-----------------------------------------------------------------------------------------------------
 
 // marks = 74;
+
 // if (marks >= 90){
 //     console.log("Grade A");
 // }else if (marks >=75 ){
@@ -121,8 +122,6 @@
 // else {
 //     console.log("Get license first");
 // }
-    
-
 
 /* ===============================
    TASK 7: Discount Calculator
@@ -146,6 +145,10 @@
 // }
 
 
+// if(cardAmount >= 1000){}
+// else{}
+
+
 /* ===============================
    TASK 8: Password Strength
 ================================ */
@@ -166,7 +169,6 @@
 //    console.log("Strong");
 // }
 
-
 /* ===============================
    TASK 9: Admin Access
 ================================ */
@@ -177,7 +179,7 @@
 
 // Write your code below
 // Ans-----------------------------------------------------------------------------------------------
-// var isAdmin = false;
+// var isAdmin = true;
 // var isEditor = false;
 
 // if (isAdmin || isEditor ) {
@@ -195,7 +197,7 @@
 // - withdrawAmount > 0
 // - withdrawAmount <= balance
 // If valid:
-//   Deduct amount using -=
+//   Deduct amount using -=9
 //   Print remaining balance
 // Else:
 //   Print error message
@@ -205,7 +207,10 @@
 // let balance =1000
 // let withdrawAmount =300;
 // if ( withdrawAmount > 0 && withdrawAmount <= balance) {
-//    console.log(balance - withdrawAmount);
+//    console.log(balance -= withdrawAmount);
 // } else {
 //    console.log("Error message");
 // }
+
+
+
