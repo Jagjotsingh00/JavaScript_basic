@@ -5,7 +5,7 @@
 // Use modulus (%) operator
 
 // Write your code below
-// Ans----------------------------------------------------------------------
+// Ans---------------------------------------------------------------------------------------------------
 // let num = 122 ;
 
 // if (num % 2 == 0) {
@@ -22,14 +22,16 @@
 // Else → Not eligible
 
 // Write your code below
-// Ans----------------------------------------------------------------------
+// Ans---------------------------------------------------------------------------------------------------
 // var age = 20;
 // if (age >= 18 ) {
 //     console.log("Eligible to vote");
-// } else {
-//     console.log(" Not eligible");
-// }
-
+//    } else if (age <= 0) {
+//        console.log(" Enter Valid Age");
+//    } else {
+//        console.log(" Not eligible");
+//    } 
+    
 /* ===============================
    TASK 3: Positive, Negative or Zero
 ================================ */
@@ -38,8 +40,8 @@
 // Use if – else if – else
 
 // Write your code below
-// Ans---------------------------------------------------------------------
-// var num = -5;
+// Ans---------------------------------------------------------------------------------------------------
+// var num = 1;
 // if (num > 0) {
 //     console.log("Number is positive");
 // } else if (num === 0) {
@@ -58,7 +60,7 @@
 // Else → Fail
 
 // Write your code below
-// Ans--------------------------------------------------------------------
+// Ans-----------------------------------------------------------------------------------------------------
 
 // marks = 74;
 // if (marks >= 90){
@@ -81,7 +83,7 @@
 
 // Write your code below
 
-// Ans---------------------------------------------------------------------
+// Ans--------------------------------------------------------------------------------------------------
 
 
 // var userName = prompt("Enter the UserName");
@@ -104,19 +106,20 @@
 
 // Write your code below
 
-// Ans---------------------------------------------------------------------
+// Ans--------------------------------------------------------------------------------------------------
 
 // let age = prompt("Enter your age");
+// var  hasLicense = true;
 
-
-// if (age > 18){
+// if (age < 18){
 //     console.log("Too young to drive");
-// }                                                                   -------------------------------------------------------------------
-// else if (age >= 18 && hasLicense){
-//   console.log("Get license first");
+// }                                               
+// else if ( hasLicense ){
+// // else if (age >= 18 && hasLicense){
+//   console.log("can Drive");
 // }
 // else {
-//     console.log("Can drive");
+//     console.log("Get license first");
 // }
     
 
@@ -133,15 +136,14 @@
 
 // Write your code below
 
-// Ans---------------------------------------------------------------------------------------
+// Ans------------------------------------------------------------------------------------------------
 
-// var cardAmount = 2000;
-// if ( cartAmount >= 1000){
-//    console.log( cardAmount * 10 );
-// } else {
+// var cardAmount = 1000;
+// if ( cardAmount < 1000){
 //    console.log("No discount");
+// } else if (cardAmount >= 1000){
+//    console.log( (cardAmount *= 10) / 100 );
 // }
-
 
 
 /* ===============================
@@ -153,6 +155,16 @@
 // >= 10 → Strong
 
 // Write your code below
+// Ans-------------------------------------------------------------------------------------------------
+// var num = 123456789;
+// let length = String(num).length;
+// if (length < 6){
+//    console.log("Weak");
+// } else if (length >= 6 && length <= 9 ) {
+//    console.log("Medium");
+// } else if (length >= 10){
+//    console.log("Strong");
+// }
 
 
 /* ===============================
@@ -164,7 +176,7 @@
 // Use logical OR (||)
 
 // Write your code below
-// Ans-----------------------------------------------------------------------------------
+// Ans-----------------------------------------------------------------------------------------------
 // var isAdmin = false;
 // var isEditor = false;
 
@@ -189,11 +201,11 @@
 //   Print error message
 
 // Write your code below
-
-let balance =1000
-let withdrawAmount =300;
-if ( withdrawAmount > 0 && withdrawAmount <= balance) {
-   console.log(balance - withdrawAmount);
-} else {
-   console.log("Error message");
-}
+// Ans------------------------------------------------------------------------------------------------
+// let balance =1000
+// let withdrawAmount =300;
+// if ( withdrawAmount > 0 && withdrawAmount <= balance) {
+//    console.log(balance - withdrawAmount);
+// } else {
+//    console.log("Error message");
+// }
