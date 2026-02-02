@@ -5,7 +5,7 @@
 
 // var a = 50;
 // console.log(a);
-// a = 90;    // can be assigned
+// a = 90;    // can be reassigned
 // console.log(a);
 
 
@@ -59,3 +59,22 @@
 //   console.log(s); // let does not have global scope      // ReferenceError: s is not defined
 
 // =====================================================================================-l,
+
+
+
+
+// let a = 10 ;
+// // a++ 
+// // ++a 
+// // a--
+// // ++a
+// console.log( a);
+
+// b = 20; 
+// a += b 
+
+// console.log( a);
+
+console.log(a);
+
+ a = 10 ;
