@@ -102,8 +102,12 @@
 // 50–74 → C
 // Below 50 → Fail
 
-// let marks = 90;
-// if (marks >= 90) {
+// let marks = prompt("enter a number")
+
+// // let marks = 90;
+//  if (marks <= 100 && marks < 0){
+//     console.log("Enter valid number");
+// } else if (marks >= 90) {
 //   console.log("Grade A");
 // } else if (marks <= 89 && marks >= 75) {
 //   console.log("Grade B");
@@ -112,7 +116,6 @@
 // } else if (marks <= 49) {
 //   console.log("Fail");
 // }
-
 // ===================================================================================
 // Take a number and check:
 // Positive

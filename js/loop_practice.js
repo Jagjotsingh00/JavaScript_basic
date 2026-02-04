@@ -1,0 +1,83 @@
+// let i = 1;
+// for (let i = 1 ; i <= 100 ; i++ ){
+// console.log(i);
+// }
+
+// let a = 20;
+// for(let i = 1 ; i * a <= (a * 10) ; i++ ){
+//     console.log(i * a );
+// }
+
+// let a = 3;
+// for(let i = 1 ; i * a <= (a * 10) ; i++ ){
+//     // console.log( i * a );                                ============== my logic
+//     console.log(`${a} x ${i} = ${i * a}`);
+
+// }
+
+// let num = 5;
+// for (let i = 1; i <= 10; i++) {                       //     ================= right way
+//     console.log(`${num} x ${i} = ${num*i}`);
+// }
+
+// for (let i = 1 ; i <=100 ; i += 3){
+//     console.log(i)
+// }
+
+
+
+// ==============================================================================================================
+
+
+// work on ==============================================
+
+
+
+
+
+// let counter= Math.floor(Math.random() * 100) + 1;
+//      console.log(num);
+//  let num = prompt("Enter a number");
+// let chance = 5;
+// while (true) {
+//   if (counter > num) {
+//     alert("Number is smaller");
+//   }
+//   if (counter < num) {
+//     alert("Number id bigger");
+//   } 
+  
+//   else {
+//     alert("You loss the game");
+//     break;
+//   }
+//   counter--;
+// }
+
+
+let counter= Math.floor(Math.random() * 100) + 1;
+     console.log(counter);
+chance = 5;
+
+while (chance) {
+ let num = prompt("Enter a number");
+
+    if (counter > num){
+        alert("Number is bigger")
+    }
+    
+    if (counter < num){
+        alert("Number is smaller")
+    }
+   
+    else{
+        alert("you loss")
+    }
+    chance-- 
+     if (num == counter){
+        alert("you won!!")
+    }
+    break;  
+}
+
+    
