@@ -55,29 +55,48 @@
 // }
 
 
-let counter= Math.floor(Math.random() * 100) + 1;
-     console.log(counter);
-chance = 5;
+// let counter= Math.floor(Math.random() * 100) + 1;
+//      console.log(counter);
+// chance = 5;
 
-while (chance) {
- let num = prompt("Enter a number");
+// while (chance) {
+//  let num = prompt("Enter a number");
 
-    if (counter > num){
-        alert("Number is bigger")
-    }
+//     if (counter > num){
+//         alert("Number is bigger")
+//     }
     
-    if (counter < num){
-        alert("Number is smaller")
-    }
+//     if (counter < num){
+//         alert("Number is smaller")
+//     }
    
-    else{
-        alert("you loss")
-    }
-    chance-- 
-     if (num == counter){
-        alert("you won!!")
-    }
-    break;  
-}
+//     else{
+//         alert("you loss")
+//     }
+//     chance-- 
+//      if (num == counter){
+//         alert("you won!!")
+//     }
+//     break;  
+// }
 
     
+// =============================================================================================home
+
+
+// for (let i = 0; i <= 10 ; i++) {
+// console.log(`outer layer ${i}`);
+// for (let j = 1; j < 10; j++) {
+//  console.log(`${i} x ${j} = ${i * j}`)    
+// }
+// }
+
+
+
+// for ( let i = 1 ; i <= 100 ; i += 3 ){
+//  console.log(i);
+// }
+
+
+// Print each character of a string
+// Example: "javascript"
