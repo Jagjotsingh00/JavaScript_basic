@@ -16,24 +16,18 @@
 // }
 
 // let num = 5;
-// for (let i = 1; i <= 10; i++) {                       //     ================= right way
-//     console.log(`${num} x ${i} = ${num*i}`);
+// for (let i = 1; i <= 10; i++) {
+//   //     ================= right way
+//   console.log(`${num} x ${i} = ${num * i}`);
 // }
 
 // for (let i = 1 ; i <=100 ; i += 3){
 //     console.log(i)
 // }
 
-
-
 // ==============================================================================================================
 
-
 // work on ==============================================
-
-
-
-
 
 // let counter= Math.floor(Math.random() * 100) + 1;
 //      console.log(num);
@@ -45,15 +39,14 @@
 //   }
 //   if (counter < num) {
 //     alert("Number id bigger");
-//   } 
-  
+//   }
+
 //   else {
 //     alert("You loss the game");
 //     break;
 //   }
 //   counter--;
 // }
-
 
 // let counter= Math.floor(Math.random() * 100) + 1;
 //      console.log(counter);
@@ -65,38 +58,33 @@
 //     if (counter > num){
 //         alert("Number is bigger")
 //     }
-    
+
 //     if (counter < num){
 //         alert("Number is smaller")
 //     }
-   
+
 //     else{
 //         alert("you loss")
 //     }
-//     chance-- 
+//     chance--
 //      if (num == counter){
 //         alert("you won!!")
 //     }
-//     break;  
+//     break;
 // }
 
-    
 // =============================================================================================home
 
-
-// for (let i = 0; i <= 10 ; i++) {
-// console.log(`outer layer ${i}`);
-// for (let j = 1; j < 10; j++) {
-//  console.log(`${i} x ${j} = ${i * j}`)    
-// }
-// }
-
-
+for (let i = 0; i <= 10 ; i++) {
+console.log(`outer layer ${i}`);                                         // // table
+for (let j = 1; j < 10; j++) {
+ console.log(`${i} x ${j} = ${i * j}`)
+}
+}
 
 // for ( let i = 1 ; i <= 100 ; i += 3 ){
 //  console.log(i);
 // }
-
 
 // Print each character of a string
 // Example: "javascript"
