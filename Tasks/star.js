@@ -317,17 +317,49 @@
 //========================================================================================================================== 
 
 
-let num = 5 ;
- for(let i = 0 ; i < num ; i++){
-  let string = ""
-  for (let j = 0 ; j <= i ; j++ ){
-    if ( j <= num - i){
-      string += j
-    } else {
-        string += j;
-    }
+// let num = 5 ;
+//  for(let i = 0 ; i < num ; i++){
+//   let string = ""
+//   for (let j = 0 ; j <= i ; j++ ){
+//     if ( j == 1 ||  i == 1 || num == 0 || num === 1 ){
+//       string += " "
+//     } else {
+//         string += "";
+//     }
 
-  }
-  console.log(string);
-  
- }
+//   }
+//   console.log(string);
+//  }
+
+
+// let num  = 5;
+// for ( let i = 1 ; i <= num ; i++){
+//   let string = "" ;
+//   for(let j = 1 ; j <= num ; j++){
+//     if(j <= num - i){
+//       string += " "
+//     }else {
+//       string += " *"
+//     }
+//   }
+//   console.log(string);
+// }
+// for ( let i = num - 1 ; i >= 0 ; i--){
+//   let string = "" ;
+//   for(let j = 1 ; j <= num ; j++){
+//     if(j <= num - i){
+//       string += " "
+//     }else {
+//       string += " *"
+//     }
+//   }
+//   console.log(string);
+// }
+
+
+//===========================================================================================================================
+
+
+
+let num = 5 ; 
+for()
