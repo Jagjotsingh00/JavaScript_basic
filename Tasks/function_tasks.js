@@ -68,7 +68,6 @@
 // console.log(getRandomNumber());
 //=============================================================================================================================
 
-
 // function isServiceOnline() {
 //   let status = "fal";
 //   if (status === true) {
@@ -85,7 +84,7 @@
 //================================================================================================================================
 
 // function functionTest() {
-//   let a = test;  //In this this is a  function reference because it does not end with the round brickets.
+//   let a = test;   //In this this is a  function reference because it does not end with the round brickets.
 //   let b = test(); //In this this is a  function call because it end with the round brickets it is used to call a function.
 //   return "Hello"
 // }
