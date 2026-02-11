@@ -174,5 +174,4 @@
 //         return "Number is odd"
 //     }
 // }
-
 // console.log(checkNumber(20));
