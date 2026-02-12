@@ -1,11 +1,10 @@
-// // nested if
+// ----------------------------------------------------Nested if else -----------------------------------
 
 // const num = 18;
-
 // // const isPositive = true | false
 // let isPositive;
 // let message;
-
+ 
 // if (num >= 0) {
 //   isPositive = true;
 // } else {
@@ -18,6 +17,9 @@
 // //     message = `${num} Number is negative`
 // // }
 
+// ------------------------------------------------------------------------------------
+
+
 // // Login
 // // username, email, password
 
@@ -26,10 +28,7 @@
 //   password: "abc123",
 //   email: "j@j.com",
 // };
-
-
-
-
+ 
 
 // const dbudername = "abc"
 
@@ -65,7 +64,3 @@
 // document.write(messaage)
 
 
-// // if(){}
-
-// // if(){}
-// // else{}

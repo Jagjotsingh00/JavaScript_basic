@@ -8,29 +8,41 @@
 // console.log(fName);
 // console.log(typeof(fName));
  
-
+// ---------------------------------------------------------------------------------------
 // // number 
+
 // let score = 24 ;
 // console.log(score);
 // console.log(typeof(score));
 
+
+// ----------------------------------------------------------------------------------------
 // // boolean 
 
 // let condition = true;
 // console.log(condition);
 // console.log(typeof(condition));
  
+
+// -------------------------------------------------------------------------------------------
 // // big integars 
 
 // let gameScore = 2222.333333333;
 // console.log(gameScore);
 // console.log(typeof(gameScore));
 
+
+
+// -------------------------------------------------------------------------------------------
 // // undefined 
 
 // let num;
 // console.log(num);
 // console.log(typeof(num));
+
+
+// ============================================================================================
+
 
 // // Non Primitive Datatypes
 
@@ -39,6 +51,10 @@
 // const fruit = ["apple","banana","cherry"];
 // console.log(fruit);
 // console.log(typeof fruit);
+
+
+// ------------------------------------------------------------------------------------
+
 
 // // Objects
 
@@ -50,6 +66,6 @@
 // console.log(person);
 // console.log(typeof person);
   
-var fName = "jagjot singh";
+// var fName = "jagjot singh";
 
-console.log(`My Name Is ${fName}`);
+// console.log(`My Name Is ${fName}`);
