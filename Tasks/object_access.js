@@ -36,3 +36,23 @@ for (let key in location) {
     }
 }
 console.log(keyForLudhiana); 
+ 
+
+let forcasts = weatherAPI.data.forecast[1];
+let keyfor18temp ; 
+for (let key in forcasts) {
+    if (forcasts[key]=== 18){
+       keyfor18temp  = key
+    }
+}
+console.log(keyfor18temp);
+
+
+let forcast = weatherAPI.data.forecast[2];
+let keyforRain ;
+for (let key in forcast) {
+    if (forcast[key]=== "Rain"){
+        keyforRain = key
+    }
+}
+console.log(keyforRain);
