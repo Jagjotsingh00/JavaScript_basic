@@ -21,6 +21,18 @@ const weatherAPI = {
 // console.log(Object.keys(weatherAPI.data.location));
 
 
-let key = Object.keys(weatherAPI.data.location.city).find(k => weatherAPI.data.location[k] == "Ludhiana")
-console.log(key);
-console.log(Object.keys(weatherAPI.data.location));
+// let key = Object.keys(weatherAPI.data.location.city).find(k => weatherAPI.data.location[k] == "Ludhiana")
+// console.log(key);
+// console.log(Object.keys(weatherAPI.data.location));
+
+
+
+
+location = weatherAPI.data.location;
+let keyForLudhiana ; 
+for (let key in location) {
+    if (location[key] === "Ludhiana") {
+        keyForLudhiana = key
+    }
+}
+console.log(keyForLudhiana); 
