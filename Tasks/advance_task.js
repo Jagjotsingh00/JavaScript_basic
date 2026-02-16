@@ -112,13 +112,13 @@ Return array of students where status === "FAIL"
 // }
 
 function getFailedStudents(results) {
-    let failedStudents = [];
-    for (let i = 0; i < results.length; i++) {
-        if (results[i].status === "FAIL") {
-            failedStudents.push(results[i]);
-        }
+  let failedStudents = [];
+  for (let i = 0; i < results.length; i++) {
+    if (results[i].status === "FAIL") {
+      failedStudents.push(results[i]);
     }
-    return failedStudents;
+  }
+  return failedStudents;
 }
 let result = generateResults(students);
 console.log(getFailedStudents(result));
@@ -145,6 +145,26 @@ Return format:
 // function getSubjectToppers(students) {
 // // TODO
 // }
+function getSubjectToppers(students) {
+  let toppers = [];
+  for (let sub = 0; sub < 4; sub++) {
+    let highestMarks = "";
+    let topperName = "";
+    for (let i = 0; i < students.length; i++) {
+      if (students[i].marks[sub] > highestMarks) {
+        highestMarks = students[i].marks[sub];
+        topperName = students[i].name;
+      }
+    }
+    toppers.push({
+      subject: sub + 1,
+      name: topperName,
+      marks: highestMarks,
+    });
+  }
+  return toppers;
+}
+console.log(getSubjectToppers(students));
 
 /**********************************************************************
 TEST RUN (DO NOT MODIFY)

@@ -14,8 +14,13 @@ const weatherAPI = {
   },
 };
 
-console.log(weatherAPI.data.location.city);
+// console.log(weatherAPI.data.location.city);
+// console.log(weatherAPI.data.forecast[1].temp);
+// console.log(weatherAPI.data.forecast[2].conditions);
 
-console.log(weatherAPI.data.forecast[1].temp);
+// console.log(Object.keys(weatherAPI.data.location));
 
-console.log(weatherAPI.data.forecast[2].conditions);
+
+let key = Object.keys(weatherAPI.data.location.city).find(k => weatherAPI.data.location[k] == "Ludhiana")
+console.log(key);
+console.log(Object.keys(weatherAPI.data.location));
