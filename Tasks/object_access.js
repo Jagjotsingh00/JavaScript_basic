@@ -28,7 +28,7 @@ const weatherAPI = {
 
 
 
-location = weatherAPI.data.location;
+let location = weatherAPI.data.location;
 let keyForLudhiana ; 
 for (let key in location) {
     if (location[key] === "Ludhiana") {
