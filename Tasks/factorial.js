@@ -7,5 +7,3 @@
 // }
 // console.log(factorial(7));
 
-// let num = 6 ;
-// for ()

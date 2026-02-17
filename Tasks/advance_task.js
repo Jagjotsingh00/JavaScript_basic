@@ -95,7 +95,7 @@ function getTopper(results) {
   }
   return topper;
 }
-let results = generateResults(students);
+var results = generateResults(students);
 console.log(getTopper(results));
 /**********************************************************************
  Get Failed Students List
@@ -170,17 +170,17 @@ console.log(getSubjectToppers(students));
 TEST RUN (DO NOT MODIFY)
 **********************************************************************/
 
-// var results = generateResults(students);
-// console.log("All Results:", results);
+var results = generateResults(students);
+console.log("All Results:", results);
 
-// var topper = getTopper(results);
-// console.log("Topper:", topper);
+var topper = getTopper(results);
+console.log("Topper:", topper);
 
-// var failed = getFailedStudents(results);
-// console.log("Failed Students:", failed);
+var failed = getFailedStudents(results);
+console.log("Failed Students:", failed);
 
-// var subjectToppers = getSubjectToppers(students);
-// console.log("Subject Toppers:", subjectToppers);
+var subjectToppers = getSubjectToppers(students);
+console.log("Subject Toppers:", subjectToppers);
 
 /**********************************************************************
 EXPECTED OUTPUT CHECKS (SHOULD MATCH)
