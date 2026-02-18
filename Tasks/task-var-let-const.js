@@ -173,7 +173,7 @@
 
 // console.log(x);
 
-// here value of x is 10 .
+// here value of x is 10 . 
 // this is because var is golbal scope .
 
 

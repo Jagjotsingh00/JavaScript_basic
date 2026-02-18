@@ -155,7 +155,7 @@
 
 // ### 8. Function Reuse
 // **Concept:** DRY principle
-// 👉 Create:
+// Create:
 // ```jsx
 // isEven(number)
 // ```
