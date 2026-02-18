@@ -1,9 +1,4 @@
-// Task:
-
-// - Create a function `sayHello`
-// - Inside the function, return `"Hello world"`
-// - Call the function and print the returned value
-
+ 
 // function sayHello(){
 //     // console.log("sayHello");
 

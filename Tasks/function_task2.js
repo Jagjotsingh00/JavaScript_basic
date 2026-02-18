@@ -16,6 +16,8 @@
 // console.log(greetUser("Harshdeep singh"));
 // console.log(greetUser("charry"));
 
+
+// --------------------------------------------------------------------
 // ### 2. Square of a Number
 
 // Create `square(num)`
@@ -130,10 +132,10 @@
 // Return `"Login Successful"` or `"Invalid Credentials"`
 
 
-// function LoginValidation(username , passsword) {
+// function loginValidation(username , password) {
 //     let dbusername = "admin";
 //     let dbpassword = 1234;
-//        if (username === dbusername &&  passsword === dbpassword) {
+//        if (username === dbusername &&  password === dbpassword) {
 //         return "Login Successful"
 //        }
 //        else {
@@ -142,7 +144,7 @@
 // }
 
 
-// console.log(LoginValidation("admin" , 1234));
+// console.log(loginValidation("admin" , 1234));
 
 
 //===============================================================================================================================
