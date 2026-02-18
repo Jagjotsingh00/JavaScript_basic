@@ -60,5 +60,12 @@ const singleDress = {
 // -------------------------------------------------------------------
 
 
+// let num = [1, 2, 3, 4];
+// let string = num.tostring();
+// console.log(string);
 
+// ---------------------------------------------------------------------
 
+// let string = "Hello";
+// let array = Array.from(string);
+// console.log(array);
