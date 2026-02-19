@@ -127,14 +127,14 @@ const info = [
 // this refers to the current object.
 // ********************************************************/
 
-// var user = {
-//   name: "Neha",
-//   greet: function () {
-//     console.log("Hello, my name is " + this.name);
-//   }
-// };
+var user = {
+  name: "Neha",
+  greet: function () {
+    console.log("Hello, my name is " + this.name);
+  }
+};
 
-// user.greet();
+user.greet();
 
 
 // /********************************************************

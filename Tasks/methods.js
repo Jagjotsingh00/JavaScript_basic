@@ -69,3 +69,28 @@ const singleDress = {
 // let string = "Hello";
 // let array = Array.from(string);
 // console.log(array);
+
+
+// -------------------------------------------------------------------
+
+var age = 12
+
+let student = {
+  name : "Jagjot" ,
+  class : "MCA" ,
+  rollNumber : 21,
+  // greet : (a,b) => {
+  //   console.log(`Hello, ${this.name}`);
+  //   return a + b
+  // },
+  greet :  function (a,b)  {
+    console.log(`Hello, ${this.name}  `);
+    return a + b
+  }
+
+}
+// student.greet(2,3)
+console.log(student.greet(2,3));
+
+
+
