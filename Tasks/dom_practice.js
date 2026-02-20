@@ -10,8 +10,11 @@ title.style.color = "blue" ;
 title.style.backgroundColor = "pink" ;
 
 
-const button= document.querySelector("#changeColor")
+const btn = document.querySelector("#changeColor")
 btn.innerHTML = "CHANGE COLOR"
+btn.style.backgroundColor = "red"
+btn.style.color = "white"
+
 
 
 

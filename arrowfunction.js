@@ -174,3 +174,25 @@
 //     }
 // }
 // console.log(CheckNumber(22222201222222221));
+
+
+
+// 20-02-2026
+
+// let sum = (num1 , num2) => num1 + num2
+// console.log(sum(10,20));
+
+// let sub = (num1 , num2) => num1 - num2
+// console.log(sub(30,20));
+
+// let multiply = (num1 , num2) => num1 * num2
+// console.log(multiply(10,20));
+
+// let devision = (num1 , num2) => num1 / num2
+// console.log(devision(100,20));
+
+// let modulous = (num1 , num2) => num1 % num2
+// console.log(modulous(2,21));
+
+
+
