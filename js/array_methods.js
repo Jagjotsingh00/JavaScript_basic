@@ -1,4 +1,4 @@
-// //    1. ARRAY CREATION
+    // //    1. ARRAY CREATION
 
 // // const arr = [];
 // const arr1 = [1, 2, 3, 4, 5];

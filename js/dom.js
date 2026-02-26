@@ -38,7 +38,7 @@
 
 // colorBtn.addEventListener("click", ()=> {
 //     document.body.style.backgroundColor = "red";
-//     title.innerHTML = "Color Changed"
+//     title.innerHTML = "Color Changed"    
 // })
 
 // // Listen for a "click" event
@@ -50,7 +50,7 @@
 
 
 // // ==========================================
-// // THE CREATOR (Experienced Level)
+// // THE CREATOR (Experienced Level)   
 // // ==========================================
 // // Goal: Create brand new HTML elements out of thin air and add them to the page.
 // // This is exactly how React works under the hood!
@@ -61,9 +61,9 @@
 
 // const taskInput = document.getElementById("new-task");
 // const addBtn = document.getElementById("add-btn");
-// const taskList = document.getElementById("task-list");
+// const taskList = document.getElementById("task-list");  
 
-// addBtn.addEventListener("click", () => {
+// addBtn.addEventListener("click", () => { 
 // //     // 1. Get the text the user typed
 //     const taskText = taskInput.value;
 
@@ -83,7 +83,7 @@
 //     taskList.appendChild(newListItem);
 
 // //     // 5. Clear the input box for the next task
-//     taskInput.value = "";
+//     taskInput.value = "";  
 // });
 
 
